@@ -8,6 +8,10 @@ function BotList(){
         .then((r)=>r.json)
         .then((data)=>setJobs(data))
     })
-    return
+    return(
+        <div>
+            
+        </div>
+    )
 }
 export default BotList

@@ -1,20 +1,11 @@
 import { useState, useEffect } from "react"
 
-function JobList(){
-    const [jobs, setJobs] = useState([])
-
-    useEffect(()=>{
-        fetch()
-        .then((r)=>r.json)
-        .then((data)=>setJobs(data))
-    })
-
-    function handleClick(){
-        return 
-    }
+function JobList({data}){
+    console.log(data);
+ 
+    
     return(
         <div>
-            
         </div>
     )
 }

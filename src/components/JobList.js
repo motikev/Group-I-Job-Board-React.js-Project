@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-function BotList(){
+function JobList(){
     const [jobs, setJobs] = useState([])
 
     useEffect(()=>{
@@ -8,10 +8,14 @@ function BotList(){
         .then((r)=>r.json)
         .then((data)=>setJobs(data))
     })
+
+    function handleClick(){
+        return 
+    }
     return(
         <div>
             
         </div>
     )
 }
-export default BotList
+export default JobList

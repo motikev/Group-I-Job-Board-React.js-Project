@@ -12,10 +12,18 @@ function JobPage(){
         .then((data)=>setJobs(data))
     },[])
 
+    const [selectedLanguage, setSelectedLanguage]=useState([])
+
+    function addLanguage(data){
+        if(!selectedLanguage.includes(data)){
+            setSelectedLanguage([...selectedLanguage, data])
+        }
+    }
+
     return (
         <>
-        <Header/>
-        <JobList jobs={jobs}/>
+        {selectedLanguage.length>0 && <Header language={selectedLanguage} />}
+        <JobList jobs={jobs} selectLanguage={addLanguage}/>
         </>
     )
 }

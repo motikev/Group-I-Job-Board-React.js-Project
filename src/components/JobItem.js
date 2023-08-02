@@ -1,4 +1,4 @@
-function JobItem({data}){
+function JobItem({data, selectLanguage}){
     return(
         <div className="job-container">
             <div>
@@ -10,7 +10,7 @@ function JobItem({data}){
                 <span>{data.contract}</span>
             </div>
             <div>
-                {data.languages.map((language, id)=>(<button key={id}>{language}</button>))}
+                {data.languages.map((language, id)=>(<button key={id} onClick={()=>selectLanguage(language)}>{language}</button>))}
             </div>
 
         </div>

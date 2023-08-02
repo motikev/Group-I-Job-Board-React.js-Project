@@ -1,7 +1,18 @@
-function Header(){
+function Header({selected, removeSelected, clearAll}){
+    console.log(selected)
+    const myLanguages =selected.map((language)=>{
+        return<ul>
+             <li>{language}
+        <button onClick={()=>removeSelected(language)}>
+            <img src="./images/3b5b217ce258702c0956cbf3b146acba_t.jpeg" alt="delete-icon"/>
+        </button>
+        </li>
+        </ul>
+    })
 return (
     <div className="header">
-        <h5>Open Job Listings</h5>
+       {myLanguages}
+       <a href="#" onClick={()=>clearAll()}>Clear</a>
     </div>
 )
 }

@@ -20,10 +20,21 @@ function JobPage(){
         }
     }
 
+    function removeLanguage(data){
+        const newSelectedLanguages = selectedLanguage.filter((language)=> language!==data)
+        setSelectedLanguage(newSelectedLanguages)
+    }
+
+    function clearAll(){
+        setSelectedLanguage([])
+    }
+
     return (
         <>
-        {selectedLanguage.length>0 && <Header language={selectedLanguage} />}
-        <JobList jobs={jobs} selectLanguage={addLanguage}/>
+        {selectedLanguage.length>0 && <Header selected={selectedLanguage} 
+        removeSelected={removeLanguage} 
+        clearAll={clearAll}/>}
+        <JobList languages={selectedLanguage} jobs={jobs} selectLanguage={addLanguage}/>
         </>
     )
 }

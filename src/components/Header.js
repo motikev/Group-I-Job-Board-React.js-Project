@@ -1,6 +1,6 @@
 function Header(){
 return (
-    <div>
+    <div className="header">
         <h5>Open Job Listings</h5>
     </div>
 )

@@ -5,21 +5,31 @@
         "title": "Frontend Developer",
         "company": "ABC Tech",
         "location": "City A",
-        "description": "We are looking for a skilled frontend developer..."
+        "description": "We are looking for a skilled frontend developer...",
+        "level": "Junior",
+        "contract": "Full-time",
+        "languages": ["HTML", "CSS", "JavaScript"]
       },
       {
         "id": 2,
         "title": "Backend Developer",
         "company": "XYZ Solutions",
         "location": "City B",
-        "description": "Join our team as a backend developer..."
+        "description": "Join our team as a backend developer...",
+        "level": "Mid-level",
+        "contract": "Contract",
+        "languages": ["Python", "Java", "SQL"]
       },
       {
         "id": 3,
         "title": "Full Stack Developer",
         "company": "Acme Corp",
         "location": "City C",
-        "description": "Acme Corp is seeking a talented full stack developer..."
+        "description": "Acme Corp is seeking a talented full stack developer...",
+        "level": "Senior",
+        "contract": "Full-time",
+        "languages": ["JavaScript", "React", "Node.js", "Ruby on Rails"]
       }
     ]
   }
+  

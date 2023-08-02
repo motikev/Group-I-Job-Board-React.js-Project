@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Header from "./Header"
 import JobList from "./JobList"
+import "./JobPage.css"
 
 function JobPage(){
     const [jobs, setJobs] = useState([])

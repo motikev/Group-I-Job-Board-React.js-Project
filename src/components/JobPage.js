@@ -14,7 +14,7 @@ function JobPage(){
     return (
         <>
         <Header/>
-        <JobList data={jobs}/>
+        <JobList jobs={jobs}/>
         </>
     )
 }

@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react"
 import JobItem from "./JobItem";
+import './JobList.css'
 
 function JobList({jobs, selectLanguage, languages}){
 
     let [filteredData, setFilteredData] = useState([])
+
+
        useEffect(()=>{
         filteredJobs()
-
     },[languages])
 
 

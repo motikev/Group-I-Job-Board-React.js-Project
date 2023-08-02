@@ -1,7 +1,10 @@
 import Header from "./Header"
 
 function JobPage(){
-    <Header/>
-
+    return (
+        <>
+        <Header/>
+        </>
+    )
 }
 export default JobPage

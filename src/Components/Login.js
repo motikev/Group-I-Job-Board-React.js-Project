@@ -1,3 +1,44 @@
+// import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
+
+// const Login = () => {
+//   const [name, setName] = useState('');
+//   const [password, setPassword] = useState('');
+//   const [error, setError] = useState('');
+
+//   const navigate = useNavigate();
+
+//   const handleLogin = async (e) => {
+//     e.preventDefault();
+
+//     // try {
+//     //   const response = await fetch('/login', {
+//     //     method: 'POST',
+//     //     headers: { 'Content-Type': 'application/json' },
+//     //     body: JSON.stringify({ name, password }),
+//     //   });
+
+//       if (response.ok) {
+//         const data = await response.json();
+//         localStorage.setItem('token', data.token); // Store token in local storage
+//         localStorage.setItem('name', data.name); // Store name in local storage
+//         navigate('/');
+//       } else {
+//         const errorData = await response.json();
+//         setError(errorData.message || 'Invalid Username or Password');
+//       }
+//     } catch (error) {
+//       console.error(error);
+//       setError('Invalid Username or Password');
+//     }
+//   };
+
+//   const handleSignUp = (e) => {
+//     e.preventDefault();
+//     navigate('/signup');
+//   };
+
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -11,25 +52,28 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    // try {
-    //   const response = await fetch('/login', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({ name, password }),
-    //   });
+    try {
+      const response = await fetch('http://localhost:3001/users', {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+      });
 
       if (response.ok) {
-        const data = await response.json();
-        localStorage.setItem('token', data.token); // Store token in local storage
-        localStorage.setItem('name', data.name); // Store name in local storage
-        navigate('/');
+        const usersData = await response.json();
+        const user = usersData.find((user) => user.name === name && user.password === password);
+
+        if (user) {
+          localStorage.setItem('token', user.name); // Store username in local storage as a token for simplicity
+          navigate('/');
+        } else {
+          setError('Invalid Username or Password');
+        }
       } else {
-        const errorData = await response.json();
-        setError(errorData.message || 'Invalid Username or Password');
+        setError('Error fetching data from the server');
       }
     } catch (error) {
       console.error(error);
-      setError('Invalid Username or Password');
+      setError('Error connecting to the server');
     }
   };
 
@@ -37,6 +81,8 @@ const Login = () => {
     e.preventDefault();
     navigate('/signup');
   };
+
+
 
   return (
     <div className="container">

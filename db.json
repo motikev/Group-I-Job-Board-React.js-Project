@@ -1,7 +1,16 @@
 {
   "users": [
-    { "id": 1, "name": "user1", "password": "password1" },
-    { "id": 2, "name": "user2", "password": "password2" },
-    { "id": 3, "name": "user3", "password": "password3" }
+    {
+      "id": 1,
+      "name": "JohnDoe",
+      "password": "hashedPassword1",
+      "token": "token1"
+    },
+    {
+      "id": 2,
+      "name": "JaneSmith",
+      "password": "hashedPassword2",
+      "token": "token2"
+    }
   ]
 }

@@ -1,0 +1,48 @@
+.job-application-form {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .job-application-form h1 {
+    color: orange;
+    text-align: center;
+  }
+  
+  .job-application-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .job-application-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: teal;
+  }
+  
+  .job-application-form input,
+  .job-application-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: #474444;
+    color: white;
+    border: none;
+  }
+  
+  .job-application-form textarea {
+    resize: vertical;
+  }
+  
+  .job-application-form button {
+    padding: 10px 15px;
+    background-color: rgb(255, 60, 0);
+    color: rgb(13, 12, 12);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .job-application-form button:hover {
+    background-color: teal;
+  }

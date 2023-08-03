@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import JobPage from './components/JobPage';
+import JobPage from './Components/JobPage';
 
 function App() {
   

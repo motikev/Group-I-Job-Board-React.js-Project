@@ -45,7 +45,7 @@ const Homepage = () => {
     { id: 1, title: 'Software Engineer', location: 'New York' },
     { id: 2, title: 'Data Analyst', location: 'San Francisco' },
     { id: 3, title: 'Marketing Manager', location: 'Los Angeles' },
-    // Add more job listings...
+
   ];
 
   return (

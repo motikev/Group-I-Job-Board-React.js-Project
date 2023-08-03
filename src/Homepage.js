@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./App.css"
 
 const JobListing = ({ title, location }) => {
   const [showModal, setShowModal] = useState(false);

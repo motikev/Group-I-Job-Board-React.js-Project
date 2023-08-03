@@ -8,7 +8,7 @@ function JobList({jobs, selectLanguage, languages}){
 
 
        useEffect(()=>{
-        filteredJobs()
+        filteredJobs(languages)
     },[languages])
 
 

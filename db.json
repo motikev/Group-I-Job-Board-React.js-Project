@@ -1,35 +1,384 @@
 {
-    "jobPostings": [
-      {
-        "id": 1,
-        "title": "Frontend Developer",
-        "company": "ABC Tech",
-        "location": "City A",
-        "description": "We are looking for a skilled frontend developer...",
-        "level": "Junior",
-        "contract": "Full-time",
-        "languages": ["HTML", "CSS", "JavaScript"]
-      },
-      {
-        "id": 2,
-        "title": "Backend Developer",
-        "company": "XYZ Solutions",
-        "location": "City B",
-        "description": "Join our team as a backend developer...",
-        "level": "Mid-level",
-        "contract": "Contract",
-        "languages": ["Python", "Java", "SQL"]
-      },
-      {
-        "id": 3,
-        "title": "Full Stack Developer",
-        "company": "Acme Corp",
-        "location": "City C",
-        "description": "Acme Corp is seeking a talented full stack developer...",
-        "level": "Senior",
-        "contract": "Full-time",
-        "languages": ["JavaScript", "React", "Node.js", "Ruby on Rails"]
-      }
-    ]
-  }
-  
+  "jobPostings": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "ABC Tech",
+      "location": "Nairobi",
+      "description": "We are looking for a skilled frontend developer to join our team. As a frontend developer, you will be responsible for designing and implementing user interfaces for our web applications. The ideal candidate should have a strong understanding of HTML, CSS, and JavaScript. Experience with modern frontend frameworks like React or Vue.js is a plus.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "XYZ Solutions",
+      "location": "Mombasa",
+      "description": "Join our team as a backend developer and be a part of building scalable and robust backend systems. As a backend developer, you will work with technologies like Python, Java, and SQL to develop and maintain APIs and databases. Familiarity with cloud platforms such as AWS or Azure is a bonus.",
+      "level": "Mid-level",
+      "contract": "Contract",
+      "languages": ["Python", "Java", "SQL"]
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Developer",
+      "company": "Acme Corp",
+      "location": "Kisumu",
+      "description": "Acme Corp is seeking a talented full stack developer to work on exciting projects. As a full stack developer, you will be responsible for designing, implementing, and maintaining both frontend and backend components of our applications. Proficiency in JavaScript, React, Node.js, and Ruby on Rails is required to succeed in this role.",
+      "level": "Senior",
+      "contract": "Full-time",
+      "languages": ["JavaScript", "React", "Node.js", "Ruby on Rails"]
+    },
+    {
+      "id": 4,
+      "title": "Mobile App Developer",
+      "company": "MobileTech",
+      "location": "Eldoret",
+      "description": "MobileTech is looking for a creative and experienced mobile app developer. In this role, you will be responsible for developing and maintaining native mobile applications for both Android and iOS platforms. Strong knowledge of mobile app development using Java/Kotlin for Android and Swift for iOS is essential.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["Java", "Kotlin", "Swift"]
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
+      "company": "DataGenius",
+      "location": "Nakuru",
+      "description": "DataGenius is seeking a skilled data scientist to analyze and interpret complex datasets. As a data scientist, you will apply various statistical and machine learning techniques to derive insights from data. Proficiency in Python, R, and SQL is required, and experience with tools like TensorFlow or PyTorch is a plus.",
+      "level": "Senior",
+      "contract": "Full-time",
+      "languages": ["Python", "R", "SQL"]
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Designer",
+      "company": "CreativeDesigns",
+      "location": "Nairobi",
+      "description": "Join our team of talented UI/UX designers to create stunning and intuitive user interfaces. As a UI/UX designer, you will collaborate with cross-functional teams to design wireframes, mockups, and prototypes. Proficiency in design tools like Adobe XD, Sketch, or Figma is required, along with a strong understanding of user-centered design principles.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 7,
+      "title": "DevOps Engineer",
+      "company": "CloudOps",
+      "location": "Nairobi",
+      "description": "CloudOps is looking for a skilled DevOps engineer to manage and automate our cloud infrastructure. In this role, you will work with technologies like Docker, Kubernetes, and Jenkins to ensure smooth deployment and monitoring of our applications. Experience with cloud providers like AWS or Google Cloud is preferred.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["Docker", "Kubernetes", "Jenkins"]
+    },
+    {
+      "id": 8,
+      "title": "Game Developer",
+      "company": "GameOn",
+      "location": "Mombasa",
+      "description": "GameOn is seeking a passionate game developer to create engaging and immersive gaming experiences. As a game developer, you will work with game engines like Unity or Unreal Engine to design and implement gameplay mechanics and features. Strong knowledge of C# or C++ programming languages is required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["C#", "C++"]
+    },
+    {
+      "id": 9,
+      "title": "Security Analyst",
+      "company": "SecureTech",
+      "location": "Nairobi",
+      "description": "SecureTech is hiring a security analyst to protect our systems and data from cyber threats. As a security analyst, you will conduct security assessments, implement security measures, and respond to incidents. Knowledge of cybersecurity best practices and tools like SIEM and IDS/IPS is essential.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["Cybersecurity"]
+    },
+    {
+      "id": 10,
+      "title": "Quality Assurance Engineer",
+      "company": "QA Master",
+      "location": "Nakuru",
+      "description": "QA Master is looking for a meticulous quality assurance engineer to ensure the quality and reliability of our software products. In this role, you will create test plans, perform manual and automated tests, and report defects. Familiarity with testing tools like Selenium or JUnit is a plus.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 11,
+      "title": "Cloud Solutions Architect",
+      "company": "CloudGenius",
+      "location": "Nairobi",
+      "description": "CloudGenius is seeking a skilled cloud solutions architect to design and deploy scalable cloud infrastructure. As a cloud solutions architect, you will work with cloud technologies like AWS, Azure, or Google Cloud to build robust and cost-effective solutions. Strong knowledge of cloud security and networking is required.",
+      "level": "Senior",
+      "contract": "Full-time",
+      "languages": ["AWS", "Azure", "Google Cloud"]
+    },
+    {
+      "id": 12,
+      "title": "Machine Learning Engineer",
+      "company": "MLTech",
+      "location": "Eldoret",
+      "description": "MLTech is hiring a machine learning engineer to develop and deploy machine learning models. In this role, you will work with Python, TensorFlow, and PyTorch to build and optimize ML algorithms. Experience in natural language processing (NLP) or computer vision is a bonus.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["Python", "TensorFlow", "PyTorch"]
+    },
+    {
+      "id": 13,
+      "title": "Network Administrator",
+      "company": "NetTech",
+      "location": "Nairobi",
+      "description": "NetTech is looking for a network administrator to manage and maintain our computer networks. As a network administrator, you will configure routers, troubleshoot network issues, and ensure network security. Knowledge of Cisco networking technologies is preferred.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["Cisco"]
+    },
+    {
+      "id": 14,
+      "title": "Embedded Systems Engineer",
+      "company": "EmbedTech",
+      "location": "Nairobi",
+      "description": "EmbedTech is seeking an experienced embedded systems engineer to develop and optimize embedded software and firmware. In this role, you will work with microcontrollers and IoT devices to design and implement embedded solutions. Strong programming skills in C and C++ are required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["C", "C++"]
+    },
+    {
+      "id": 15,
+      "title": "Business Analyst",
+      "company": "BizTech Solutions",
+      "location": "Nairobi",
+      "description": "BizTech Solutions is hiring a business analyst to analyze business processes and requirements. As a business analyst, you will work with stakeholders to gather and document business needs. Strong communication and problem-solving skills are essential for success in this role.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 16,
+      "title": "UX Researcher",
+      "company": "UX Labs",
+      "location": "Nairobi",
+      "description": "UX Labs is seeking a UX researcher to conduct user research and gather insights to inform product design. As a UX researcher, you will plan and conduct usability studies, interviews, and surveys. Strong analytical and data analysis skills are required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 17,
+      "title": "Software Engineer",
+      "company": "SoftWorks",
+      "location": "Kisumu",
+      "description": "SoftWorks is looking for a skilled software engineer to develop and maintain high-quality software solutions. As a software engineer, you will collaborate with cross-functional teams to design and implement software features. Proficiency in Java, Python, or C# programming languages is required.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["Java", "Python", "C#"]
+    },
+    {
+      "id": 18,
+      "title": "System Administrator",
+      "company": "SysTech",
+      "location": "Mombasa",
+      "description": "SysTech is hiring a system administrator to manage and maintain our IT infrastructure. As a system administrator, you will handle server configurations, monitor system performance, and troubleshoot technical issues. Knowledge of Linux and Windows operating systems is required.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["Linux", "Windows"]
+    },
+    {
+      "id": 19,
+      "title": "Web Designer",
+      "company": "WebWizards",
+      "location": "Nairobi",
+      "description": "WebWizards is seeking a creative web designer to create visually appealing and user-friendly websites. As a web designer, you will use HTML, CSS, and JavaScript to design responsive web interfaces. Proficiency in design tools like Photoshop or Sketch is preferred.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 20,
+      "title": "Network Security Engineer",
+      "company": "SecureNet",
+      "location": "Nairobi",
+      "description": "SecureNet is looking for a network security engineer to ensure the security and integrity of our network infrastructure. In this role, you will implement and maintain security measures, conduct vulnerability assessments, and respond to security incidents. Knowledge of firewall configurations and network protocols is essential.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 21,
+      "title": "Mobile UI/UX Designer",
+      "company": "MobileUX",
+      "location": "Nairobi",
+      "description": "MobileUX is hiring a mobile UI/UX designer to create beautiful and intuitive mobile app interfaces. As a mobile UI/UX designer, you will work closely with the development team to deliver user-centered design solutions. Proficiency in mobile design tools like Adobe XD or Sketch is required.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 22,
+      "title": "AI Engineer",
+      "company": "AI Labs",
+      "location": "Nairobi",
+      "description": "AI Labs is seeking an AI engineer to develop and deploy artificial intelligence solutions. In this role, you will work with machine learning frameworks like TensorFlow or PyTorch to build intelligent algorithms. Experience in natural language processing (NLP) or computer vision is a plus.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["Python", "TensorFlow", "PyTorch"]
+    },
+    {
+      "id": 23,
+      "title": "IT Support Specialist",
+      "company": "IT Solutions",
+      "location": "Nairobi",
+      "description": "IT Solutions is hiring an IT support specialist to provide technical assistance and support to end-users. As an IT support specialist, you will troubleshoot hardware and software issues, set up and maintain computer systems, and provide training to users. Strong problem-solving and communication skills are essential.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 24,
+      "title": "E-commerce Developer",
+      "company": "E-commerce Hub",
+      "location": "Nairobi",
+      "description": "E-commerce Hub is seeking an experienced e-commerce developer to build and maintain online shopping platforms. As an e-commerce developer, you will work with technologies like Shopify, WooCommerce, or Magento to create seamless online shopping experiences. Knowledge of payment gateways and security protocols is required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 25,
+      "title": "Digital Marketing Specialist",
+      "company": "DigitalGrowth",
+      "location": "Nairobi",
+      "description": "DigitalGrowth is seeking a digital marketing specialist to develop and implement online marketing strategies. As a digital marketing specialist, you will manage social media campaigns, analyze website traffic, and optimize content for search engines. Strong knowledge of SEO, SEM, and social media marketing is required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 26,
+      "title": "Network Engineer",
+      "company": "NetConnect",
+      "location": "Nairobi",
+      "description": "NetConnect is hiring a network engineer to design and implement network infrastructure. In this role, you will configure routers and switches, monitor network performance, and troubleshoot connectivity issues. Knowledge of network protocols and security is essential.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["Networking"]
+    },
+    {
+      "id": 27,
+      "title": "Graphic Designer",
+      "company": "CreativeGraphics",
+      "location": "Nairobi",
+      "description": "CreativeGraphics is seeking a talented graphic designer to create visually appealing graphics for various marketing materials. As a graphic designer, you will work on designing logos, brochures, posters, and other visual assets. Proficiency in design software like Adobe Illustrator and Photoshop is required.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 28,
+      "title": "Mobile Application Tester",
+      "company": "AppTesters",
+      "location": "Nairobi",
+      "description": "AppTesters is looking for a mobile application tester to ensure the quality and functionality of mobile apps. In this role, you will conduct manual and automated tests on various mobile platforms and report bugs. Familiarity with testing tools like Appium or XCTest is a plus.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 29,
+      "title": "Data Analyst",
+      "company": "DataInsights",
+      "location": "Nairobi",
+      "description": "DataInsights is hiring a data analyst to analyze and interpret data to drive business insights. As a data analyst, you will work with SQL and data visualization tools to create reports and dashboards. Strong analytical and problem-solving skills are required.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["SQL"]
+    },
+    {
+      "id": 30,
+      "title": "Content Writer",
+      "company": "ContentCreators",
+      "location": "Nairobi",
+      "description": "ContentCreators is seeking a creative content writer to produce engaging and informative content for various platforms. As a content writer, you will write articles, blog posts, and marketing copy. Strong writing and editing skills are essential for this role.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 31,
+      "title": "IT Project Manager",
+      "company": "IT Projects Ltd",
+      "location": "Nairobi",
+      "description": "IT Projects Ltd is hiring an IT project manager to oversee and coordinate IT projects from inception to completion. In this role, you will plan project timelines, allocate resources, and manage project budgets. Strong leadership and organizational skills are required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 32,
+      "title": "UI Developer",
+      "company": "UI Wizards",
+      "location": "Nairobi",
+      "description": "UI Wizards is seeking a talented UI developer to create interactive and user-friendly web interfaces. As a UI developer, you will work with HTML, CSS, and JavaScript to implement design mockups and prototypes. Proficiency in frontend frameworks like React or Angular is a plus.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 33,
+      "title": "Business Intelligence Analyst",
+      "company": "BI Insights",
+      "location": "Nairobi",
+      "description": "BI Insights is hiring a business intelligence analyst to analyze and present data insights to support business decision-making. In this role, you will work with BI tools like Tableau or Power BI to create visualizations and reports. Strong analytical and data modeling skills are required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 34,
+      "title": "System Security Administrator",
+      "company": "SecureSystems",
+      "location": "Nairobi",
+      "description": "SecureSystems is looking for a system security administrator to ensure the security and integrity of our IT systems. In this role, you will implement security measures, conduct vulnerability assessments, and respond to security incidents. Knowledge of cybersecurity best practices and tools like IDS/IPS is essential.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 35,
+      "title": "Software Quality Assurance Engineer",
+      "company": "QA Solutions",
+      "location": "Nairobi",
+      "description": "QA Solutions is seeking a software quality assurance engineer to ensure the quality and reliability of our software products. In this role, you will create test plans, perform manual and automated tests, and report defects. Familiarity with testing tools like Selenium or JUnit is a plus.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 36,
+      "title": "Cloud Security Engineer",
+      "company": "SecureCloud",
+      "location": "Nairobi",
+      "description": "SecureCloud is looking for a cloud security engineer to ensure the security of our cloud-based services. In this role, you will implement security controls, monitor cloud environments, and respond to security incidents. Knowledge of cloud security best practices and cloud providers like AWS or Azure is required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["AWS", "Azure"]
+    },
+    {
+      "id": 37,
+      "title": "IT Support Specialist",
+      "company": "IT Helpdesk",
+      "location": "Nairobi",
+      "description": "IT Helpdesk is hiring an IT support specialist to provide technical assistance and support to end-users. As an IT support specialist, you will troubleshoot hardware and software issues, set up and maintain computer systems, and provide training to users. Strong problem-solving and communication skills are essential.",
+      "level": "Junior",
+      "contract": "Full-time",
+      "languages": []
+    },
+    {
+      "id": 38,
+      "title": "React Native Developer",
+      "company": "MobileTech",
+      "location": "Nairobi",
+      "description": "MobileTech is seeking a skilled React Native developer to build cross-platform mobile applications. In this role, you will work with React Native and JavaScript to develop mobile apps with a native look and feel. Knowledge of mobile app development best practices and API integration is required.",
+      "level": "Mid-level",
+      "contract": "Full-time",
+      "languages": ["JavaScript", "React Native"]
+    }
+  ]
+}

@@ -40,7 +40,7 @@ export const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
         <NavLink className="navbar-brand" to="/" style={{ fontSize: '40px' }}>
-          𝓔𝓿𝓮𝓷𝓽𝓢𝔂𝓷𝓬
+          JOB BOARD APPLICATIONS
         </NavLink>
         <button
           className="navbar-toggler"

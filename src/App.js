@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Nav } from './Components/Navbar';
+import { Nav } from './Components/Navbar'; 
 import Login from './Components/Login';
 import Logout from './Components/Logout';
 import Signup from './Components/Signup';
@@ -29,7 +29,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar isAuthenticated={isAuthenticated} /> {/* Render Navbar outside Routes */}
+        <Nav isAuthenticated={isAuthenticated} /> {/* Render Navbar outside Routes */}
         {/* Other components and routes */}
         <Routes>
           {/* Your other routes */}

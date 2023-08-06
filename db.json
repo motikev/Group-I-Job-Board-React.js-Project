@@ -1,0 +1,103 @@
+{
+    "jobListings": [
+      { "id": 1, "title": "Software Engineer", "location": "New York" },
+      { "id": 2, "title": "Data Analyst", "location": "San Francisco" },
+      { "id": 3, "title": "Marketing Manager", "location": "Los Angeles" },
+      { "id": 4, "title": "Frontend Developer", "location": "Chicago" },
+      { "id": 5, "title": "UX Designer", "location": "Seattle" },
+      { "id": 6, "title": "Project Manager", "location": "Houston" },
+      { "id": 7, "title": "Accountant", "location": "Dallas" },
+      { "id": 8, "title": "Mobile App Developer", "location": "Austin" },
+      { "id": 9, "title": "Graphic Designer", "location": "Miami" },
+      { "id": 10, "title": "Business Analyst", "location": "Atlanta" },
+      { "id": 11, "title": "Network Engineer", "location": "Denver" },
+      { "id": 12, "title": "Product Manager", "location": "Boston" },
+      { "id": 13, "title": "Content Writer", "location": "San Diego" },
+      { "id": 14, "title": "Social Media Specialist", "location": "Portland" },
+      { "id": 15, "title": "HR Manager", "location": "Phoenix" },
+      { "id": 16, "title": "Sales Representative", "location": "Charlotte" },
+      { "id": 17, "title": "Web Developer", "location": "Seattle" },
+      { "id": 18, "title": "Data Scientist", "location": "San Francisco" },
+      { "id": 19, "title": "Marketing Coordinator", "location": "Los Angeles" },
+      { "id": 20, "title": "Software Architect", "location": "New York" }
+    ],
+    "featuredJob": { "id": 4, "title": "Frontend Developer", "location": "Chicago" },
+    "services": [
+      {
+        "id": 1,
+        "title": "Resume Building",
+        "description": "Our expert team of career advisors will help you build a compelling resume that highlights your skills and experiences."
+      },
+      {
+        "id": 2,
+        "title": "Interview Preparation",
+        "description": "Ace your job interviews with our interview preparation services. We conduct mock interviews and provide valuable feedback to improve your performance."
+      },
+      {
+        "id": 3,
+        "title": "Career Counseling",
+        "description": "Get personalized career counseling sessions to identify your strengths and interests, and explore various career opportunities."
+      },
+      {
+        "id": 4,
+        "title": "Job Search Assistance",
+        "description": "Let us assist you in finding the right job opportunities that match your skills and career goals."
+      },
+      {
+        "id": 5,
+        "title": "Professional Development Workshops",
+        "description": "Participate in our workshops to enhance your professional skills and stay ahead in your career."
+      },
+      {
+        "id": 6,
+        "title": "Networking Events",
+        "description": "Join our networking events to connect with industry professionals and explore new career opportunities."
+      },
+      {
+        "id": 7,
+        "title": "Personal Branding",
+        "description": "Learn the art of personal branding and create a strong online presence to stand out in the job market."
+      },
+      {
+        "id": 8,
+        "title": "Career Change Support",
+        "description": "Transitioning to a new career? We provide support and guidance to help you make a successful career change."
+      },
+      {
+        "id": 9,
+        "title": "Job Placement Assistance",
+        "description": "Our job placement services connect you with employers who are actively hiring for your skills and qualifications."
+      },
+      {
+        "id": 10,
+        "title": "Salary Negotiation",
+        "description": "Learn effective negotiation strategies to secure the salary and benefits you deserve in your new job."
+      },
+      {
+        "id": 11,
+        "title": "LinkedIn Profile Optimization",
+        "description": "Optimize your LinkedIn profile to attract recruiters and showcase your professional achievements."
+      },
+      {
+        "id": 12,
+        "title": "Remote Job Opportunities",
+        "description": "Discover a wide range of remote job opportunities in various industries and work from anywhere."
+      },
+      {
+        "id": 13,
+        "title": "Job Application Review",
+        "description": "Get feedback on your job applications to improve your chances of getting noticed by employers."
+      },
+      {
+        "id": 14,
+        "title": "Career Growth Strategy",
+        "description": "Create a personalized career growth strategy to achieve your long-term career goals."
+      },
+      {
+        "id": 15,
+        "title": "Internship Programs",
+        "description": "Explore internship programs to gain valuable work experience and kickstart your career."
+      }
+    ]
+  }
+  

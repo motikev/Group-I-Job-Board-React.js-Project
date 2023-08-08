@@ -20,6 +20,7 @@ const Homepage = () => {
     email: '',
     coverLetter: '',
   });
+  
 
   useEffect(() => {
     axios.get('http://localhost:3000/jobListings')

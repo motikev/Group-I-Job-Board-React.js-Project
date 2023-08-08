@@ -1,0 +1,24 @@
+body {
+    color: #568ec2;
+
+}
+.navbar {
+    background-color:  #568ec2;
+    color: #568ec2;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+  
+  /* Add other styles as needed */
+  

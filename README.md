@@ -35,7 +35,7 @@ Our dedicated team of 6 members worked collaboratively to bring this project to 
 2. Jeremy Imbisi (Developer, Merge master);
 3. Peter Reagan (Developer);
 4. Elsa Wanjiru (Developer);
-5. Dennis Kimighta (Developer);
+5. Dennis Kimaita (Developer);
 6. Emmanuel Marial (Developer);
 
 ## Conclusion

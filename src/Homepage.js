@@ -23,15 +23,15 @@ const Homepage = () => {
   
 
   useEffect(() => {
-    axios.get('http://localhost:3000/jobListings')
+    axios.get('https://job-board-json.onrender.com/jobListings')
       .then(response => setJobListings(response.data))
       .catch(error => console.error(error));
 
-    axios.get('http://localhost:3000/featuredJob')
+    axios.get('https://job-board-json.onrender.com/featuredJob')
       .then(response => setFeaturedJob(response.data))
       .catch(error => console.error(error));
 
-    axios.get('http://localhost:3000/services')
+    axios.get('https://job-board-json.onrender.com/services')
       .then(response => setServices(response.data))
       .catch(error => console.error(error));
   }, []);

@@ -7,7 +7,7 @@ const JobDetailsPage = () => {
   const [jobDetails, setJobDetails] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/jobListings/${jobId}`)
+    axios.get(`https://job-board-json.onrender.com/jobListings${jobId}`)
       .then(response => setJobDetails(response.data))
       .catch(error => console.error(error));
   }, [jobId]);
